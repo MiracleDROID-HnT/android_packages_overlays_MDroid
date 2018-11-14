@@ -65,7 +65,9 @@ PRODUCT_PACKAGES += \
     QStileCircleTrim \
     QStileDefault \
     QStileDualToneCircle \
-    QStileSquircleTrim
+    QStileSquircle \
+    QStileSquircleTrim \
+    QStileTearDrop
 
 ifeq ($(WITH_QCOM_FM),true)
 PRODUCT_PACKAGES += \
