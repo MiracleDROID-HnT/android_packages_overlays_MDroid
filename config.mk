@@ -96,3 +96,8 @@ PRODUCT_PACKAGES += \
     QStileSquircle \
     QStileSquircleTrim \
     QStileTearDrop
+
+# Switch themes
+PRODUCT_PACKAGES += \
+    MD2Switch \
+    OnePlusSwitch
