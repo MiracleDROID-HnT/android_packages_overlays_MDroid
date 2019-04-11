@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FMTheme" parent="@android:Theme.Material">
+        <item name="android:colorPrimary">@*com.caf.fmradio:color/primary</item>
+        <item name="android:colorPrimaryDark">@*com.caf.fmradio:color/primary_dark</item>
+        <item name="android:colorAccent">@*com.caf.fmradio:color/accent</item>
+        <item name="android:navigationBarColor">@*com.caf.fmradio:color/navigation_bar_color</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundFloating">@*android:color/black</item>
+    </style>
+</resources>

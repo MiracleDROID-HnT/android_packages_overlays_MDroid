@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="picker_background_color">@*android:color/primary_material_dark</color>
+    <color name="picker_frequency_color">#ffffffff</color>
+    <color name="picker_frequency_text_color">@*android:color/white</color>
+    <color name="picker_frequency_back_forward_button_tint">@*android:color/secondary_material_settings_light</color>
+    <color name="background_color">@*android:color/background_material_dark</color>
+</resources>
