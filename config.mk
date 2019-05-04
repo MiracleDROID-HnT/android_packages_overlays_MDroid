@@ -63,7 +63,6 @@ PRODUCT_PACKAGES += \
     MDroidYellowAccent \
     QStileCircle \
     QStileCircleTrim \
-    QStileDefault \
     QStileDualToneCircle \
     QStileSquircle \
     QStileSquircleTrim \
