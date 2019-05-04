@@ -1,43 +1,5 @@
+# Accents
 PRODUCT_PACKAGES += \
-    MDroidSystemBlackTheme \
-    MDroidSystemDarkTheme \
-    MDroidSystemUIBlackTheme \
-    MDroidSystemUIDarkTheme \
-    MDroidNotificationBlackTheme \
-    MDroidNotificationDarkTheme \
-    MDroidSettingsBlackTheme \
-    MDroidSettingsDarkTheme \
-    MDroidDialerBlackTheme \
-    MDroidDialerDarkTheme \
-    MDroidEbayBlackTheme \
-    MDroidEbayDarkTheme \
-    MDroidContactsBlackTheme \
-    MDroidContactsDarkTheme \
-    MDroidFilesBlackTheme \
-    MDroidFilesDarkTheme \
-    MDroidMessagingBlackTheme \
-    MDroidMessagingDarkTheme \
-    MDroidPhoneBlackTheme \
-    MDroidPhoneDarkTheme \
-    MDroidTelecomBlackTheme \
-    MDroidTelecomDarkTheme \
-    MDroidCalculatorBlackTheme \
-    MDroidCalculatorDarkTheme \
-    MDroidGboardBlackTheme \
-    MDroidGboardDarkTheme \
-    MDroidGboardLightTheme \
-    MDroidCalendarBlackTheme \
-    MDroidCalendarDarkTheme \
-    MDroidGooglePackageInstallerBlackTheme \
-    MDroidGooglePackageInstallerDarkTheme \
-    MDroidEmailBlackTheme \
-    MDroidEmailDarkTheme \
-    MDroidElevenBlackTheme \
-    MDroidElevenDarkTheme \
-    MDroidRecorderBlackTheme \
-    MDroidRecorderDarkTheme \
-    MDroidXiaomiPartsBlackTheme \
-    MDroidXiaomiPartsDarkTheme \
     MDroidBlackAccent \
     MDroidBlueAccent \
     MDroidBlueLightAccent \
@@ -60,20 +22,77 @@ PRODUCT_PACKAGES += \
     MDroidRedAccent \
     MDroidTealAccent \
     MDroidWhiteAccent \
-    MDroidYellowAccent \
+    MDroidYellowAccent
+
+# Black Themes
+PRODUCT_PACKAGES += \
+    MDroidSystemBlackTheme \
+    MDroidSystemUIBlackTheme \
+    MDroidNotificationBlackTheme \
+    MDroidSettingsBlackTheme \
+    MDroidDialerBlackTheme \
+    MDroidEbayBlackTheme \
+    MDroidContactsBlackTheme \
+    MDroidFilesBlackTheme \
+    MDroidMessagingBlackTheme \
+    MDroidPhoneBlackTheme \
+    MDroidTelecomBlackTheme \
+    MDroidCalculatorBlackTheme \
+    MDroidGboardBlackTheme \
+    MDroidCalendarBlackTheme \
+    MDroidGooglePackageInstallerBlackTheme \
+    MDroidEmailBlackTheme \
+    MDroidElevenBlackTheme \
+    MDroidRecorderBlackTheme \
+    MDroidXiaomiPartsBlackTheme
+
+ifeq ($(WITH_QCOM_FM),true)
+PRODUCT_PACKAGES += \
+    MDroidFM2BlackTheme
+else
+PRODUCT_PACKAGES += \
+    MDroidFMRadioBlackTheme
+endif
+
+# Dark Themes
+PRODUCT_PACKAGES += \
+    MDroidSystemDarkTheme \
+    MDroidSystemUIDarkTheme \
+    MDroidNotificationDarkTheme \
+    MDroidSettingsDarkTheme \
+    MDroidDialerDarkTheme \
+    MDroidEbayDarkTheme \
+    MDroidContactsDarkTheme \
+    MDroidFilesDarkTheme \
+    MDroidMessagingDarkTheme \
+    MDroidPhoneDarkTheme \
+    MDroidTelecomDarkTheme \
+    MDroidCalculatorDarkTheme \
+    MDroidGboardDarkTheme \
+    MDroidCalendarDarkTheme \
+    MDroidGooglePackageInstallerDarkTheme \
+    MDroidEmailDarkTheme \
+    MDroidElevenDarkTheme \
+    MDroidRecorderDarkTheme \
+    MDroidXiaomiPartsDarkTheme
+
+ifeq ($(WITH_QCOM_FM),true)
+PRODUCT_PACKAGES += \
+    MDroidFM2DarkTheme
+else
+PRODUCT_PACKAGES += \
+    MDroidFMRadioDarkTheme
+endif
+
+# Light Themes
+PRODUCT_PACKAGES += \
+    MDroidGboardLightTheme
+
+# QS Tiles
+PRODUCT_PACKAGES += \
     QStileCircle \
     QStileCircleTrim \
     QStileDualToneCircle \
     QStileSquircle \
     QStileSquircleTrim \
     QStileTearDrop
-
-ifeq ($(WITH_QCOM_FM),true)
-PRODUCT_PACKAGES += \
-    MDroidFM2BlackTheme \
-    MDroidFM2DarkTheme
-else
-PRODUCT_PACKAGES += \
-    MDroidFMRadioBlackTheme \
-    MDroidFMRadioDarkTheme
-endif
