@@ -38,6 +38,12 @@
         <item name="android:colorBackgroundFloating">@android:color/black</item>
     </style>
 
+    <style name="HeaderTheme" parent="@*com.android.email:style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:colorAccent">@*com.android.email:color/primary_color</item>
+        <item name="android:popupTheme">@*com.android.email:style/ThemeOverlay.AppCompat</item>
+        <item name="android:colorBackground">@android:color/black</item>
+    </style>
+
     <style name="NotificationPrimaryText">
         <item name="android:textColor">#ff212121</item>
     </style>

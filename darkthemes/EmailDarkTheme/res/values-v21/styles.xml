@@ -32,6 +32,12 @@
         <item name="@*com.android.email:attr/colorAccent">@*com.android.email:color/accent_blue</item>
     </style>
 
+    <style name="HeaderTheme" parent="@*com.android.email:style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:colorAccent">@*com.android.email:color/primary_color</item>
+        <item name="android:popupTheme">@*com.android.email:style/ThemeOverlay.AppCompat</item>
+        <item name="android:colorBackground">@*android:color/background_material_dark</item>
+    </style>
+
     <style name="NotificationPrimaryText">
         <item name="android:textColor">#ff212121</item>
     </style>
