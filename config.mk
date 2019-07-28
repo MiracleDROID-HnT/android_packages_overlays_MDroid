@@ -1,29 +1,3 @@
-# Accents
-PRODUCT_PACKAGES += \
-    MDroidBlackAccent \
-    MDroidBlueAccent \
-    MDroidBlueLightAccent \
-    MDroidBrownAccent \
-    MDroidCyanAccent \
-    MDroidGreenAccent \
-    MDroidGreenLightAccent \
-    MDroidLimeAccent \
-    MDroidGreyAccent \
-    MDroidGreyBlueAccent \
-    MDroidAmberAccent \
-    MDroidOrangeAccent \
-    MDroidOrangeDeepAccent \
-    MDroidPinkAccent \
-    MDroidPixelAccent \
-    MDroidNetflixAccent \
-    MDroidPurpleAccent \
-    MDroidPurpleDeepAccent \
-    MDroidIndigoAccent \
-    MDroidRedAccent \
-    MDroidTealAccent \
-    MDroidWhiteAccent \
-    MDroidYellowAccent
-
 # Black Themes
 PRODUCT_PACKAGES += \
     MDroidSystemBlackTheme \
