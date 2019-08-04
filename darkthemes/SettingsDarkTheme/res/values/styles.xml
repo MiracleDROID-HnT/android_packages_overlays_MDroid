@@ -18,4 +18,5 @@
 
         <item name="*android:lockPatternStyle">@*com.android.settings:style/LockPatternStyle.Setup</item>
     </style>
+    <style name="ColorPickerDialogTheme" parent="@android:style/Theme.Material.Dialog"/>
 </resources>
